@@ -1,10 +1,11 @@
 import axios from "axios";
+const URL = import.meta.env.VITE_API_UR
 
 export const searchText = (search) => {
 
-    return axios.get(`http://localhost:8888/search?value=${search}`);
+    return axios.get(`${URL}/search?value=${search}`);
 }
 
 export const searchFilter = (filter) => {
-    return axios.get("http://localhost:8888/searchbyfilter",{params:filter})
+    return axios.get(`${URL}/searchbyfilter`, { params: filter })
 }

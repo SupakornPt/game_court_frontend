@@ -1,16 +1,17 @@
 import axios from "axios";
+const URL = import.meta.env.VITE_API_URL
 
 export const getProductCategory = () => {
 
-    return axios.get("http://localhost:8888/getcategory");
+    return axios.get(`${URL}/getcategory`);
 }
 
 export const getProductByCategory = (id) => {
 
-    return axios.get(`http://localhost:8888/searchbycategory/${id}`);
+    return axios.get(`${URL}/searchbycategory/${id}`);
 }
 
 export const getProductDetail = (id) => {
 
-    return axios.get(`http://localhost:8888/productdetail/${id}`);
+    return axios.get(`${URL}/productdetail/${id}`);
 }
