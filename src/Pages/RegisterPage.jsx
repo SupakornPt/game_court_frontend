@@ -55,7 +55,7 @@ function RegisterPage() {
                 <div className='h-28  flex flex-row items-center'>
                     {/* LOGO */}
                     <div className='w-[100px] ml-[100px] lg:w-[80px]'>
-                        <img src="src/picture/gamecourtLogo.png" alt="LogoPic" className='w-full' />
+                        <img src="https://res.cloudinary.com/dxfryzi0g/image/upload/v1732258448/yexririudcdiarurnptm.png" alt="LogoPic" className='w-full' />
                     </div>
                 </div>
                 {/* TEXT */}

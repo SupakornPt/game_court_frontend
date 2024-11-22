@@ -47,7 +47,7 @@ function LoginPage() {
             {/* HEADER */}
             <div className='h-1/6 flex flex-col'>
                 <div className='w-[100px] lg:w-[80px] ml-[100px] mt-[50px] lg:mt-[21px]'>
-                    <img src="src/picture/gamecourtLogo.png" alt="LogoPic" className='w-full' />
+                    <img src="https://res.cloudinary.com/dxfryzi0g/image/upload/v1732258448/yexririudcdiarurnptm.png" alt="LogoPic" className='w-full' />
                 </div>
             </div>
             {/* CONTENT */}

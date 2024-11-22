@@ -10,7 +10,7 @@ function LandingPage() {
             <div className='flex flex-row justify-between h-28 items-center'>
                 {/* LOGO */}
                 <div className='w-[100px] ml-[100px] lg:w-[80px]'>
-                    <img src="src/picture/gamecourtLogo.png" alt="LogoPic" className='w-full' />
+                    <img src="https://res.cloudinary.com/dxfryzi0g/image/upload/v1732258448/yexririudcdiarurnptm.png" alt="LogoPic" className='w-full' />
                 </div>
                 {/* SKIP BUTTON */}
                 <div className='mr-[100px]'>
