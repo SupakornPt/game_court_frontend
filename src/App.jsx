@@ -6,7 +6,8 @@ import Approute from './routes/AppRoute'
 function App() {
   return (
     <div className='cursor-swordCursor'>
-      <Approute />
+      {/* <Approute /> */}
+      <h1>Hello</h1>
     </div>
   )
 }
