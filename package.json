@@ -2,7 +2,7 @@
   "name": "personal-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://SupakornPt.github.io/game_court_frontend",
+  "homepage": "https://supakornpt.github.io/game_court_frontend",
   "type": "module",
   "scripts": {
     "dev": "vite",
